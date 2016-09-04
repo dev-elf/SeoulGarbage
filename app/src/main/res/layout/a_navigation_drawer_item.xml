@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
+    android:gravity="center_vertical"
     android:padding="5dp">
 
     <ImageView
@@ -12,6 +13,8 @@
         android:scaleType="centerInside" />
 
     <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:id="@+id/menuName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

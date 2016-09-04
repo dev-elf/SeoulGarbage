@@ -8,6 +8,15 @@
     tools:context=".MainNav"
     tools:openDrawer="left">
 
+
+    <!-- frame -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/a_navigation_frame" />
+    </LinearLayout>
+
     <!-- menu -->
     <LinearLayout
         android:layout_width="220dp"
@@ -15,13 +24,6 @@
         android:layout_gravity="left">
 
         <include layout="@layout/a_navigation_drawer" />
-    </LinearLayout>
-
-    <!-- frame -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <include layout="@layout/a_navigation_frame"/>
     </LinearLayout>
 
 </android.support.v4.widget.DrawerLayout>

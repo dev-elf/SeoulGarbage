@@ -7,13 +7,16 @@
     android:orientation="vertical">
 
     <RelativeLayout
+        android:background="@color/appMain"
         android:layout_width="match_parent"
         android:layout_height="120dp">
         <TextView
+            android:textColor="@color/appWhiteBack"
+            android:id="@+id/userAddress"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:textSize="30sp"
+            android:textSize="20sp"
             android:text="사랑의 쓰레기통" />
     </RelativeLayout>
 

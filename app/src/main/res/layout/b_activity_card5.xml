@@ -9,4 +9,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.dev_elf.seoul.seoulgarbage.BActivityCard5Activity">
 
+    <include layout="@layout/d_tool_actionbar"/>
+
 </RelativeLayout>

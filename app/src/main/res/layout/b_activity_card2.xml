@@ -6,6 +6,8 @@
     android:orientation="vertical"
     tools:context="com.dev_elf.seoul.seoulgarbage.BActivityCard2Activity">
 
+    <include layout="@layout/d_tool_actionbar"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
