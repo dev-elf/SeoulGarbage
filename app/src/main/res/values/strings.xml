@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SeoulGarbage</string>
+
+    <!-- navigation drawer -->
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
 </resources>
