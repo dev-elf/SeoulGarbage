@@ -20,7 +20,6 @@ public abstract class SActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("Custom toolbar");
         setSupportActionBar(toolbar);
-        toolbar.setLogo(R.mipmap.ic_launcher);
 
     }
 

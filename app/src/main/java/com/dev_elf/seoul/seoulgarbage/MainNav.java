@@ -15,11 +15,15 @@ import com.dev_elf.seoul.seoulgarbage.interfaces.NavigationDrawer;
  */
 public class MainNav extends SActivity implements NavigationDrawer{
 
+    private static final int[] cardLayout = {
+        0
+    };
+
     DrawerLayout mDrawerLayout;
     ActionBarDrawerToggle mDrawerToggle;
     View mDrawerLeft;
 
-    boolean isDrawerOpen = false;
+    private boolean isDrawerOpen = false;
 
 
     @Override
