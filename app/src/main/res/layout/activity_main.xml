@@ -23,54 +23,9 @@
             android:layout_marginRight="15px"
             android:layout_weight="1"
             android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15px"
-                android:layout_weight="1"
-                android:background="#CCE5FF"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="일반쓰레기" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="D-3" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15px"
-                android:layout_weight="3"
-                android:background="#CCE5FF"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="재활용 버리는 요일" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="월 수 금" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:background="#CCE5FF">
-
-            </LinearLayout>
-
+            <include layout="@layout/a_navigation_frame_card1" />
+            <include layout="@layout/a_navigation_frame_card2" />
+            <include layout="@layout/a_navigation_frame_card3" />
         </LinearLayout>
 
         <LinearLayout
@@ -80,22 +35,8 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15px"
-                android:layout_weight="3"
-                android:background="#CCE5FF">
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:background="#CCE5FF">
-
-            </LinearLayout>
+            <include layout="@layout/a_navigation_frame_card4"/>
+            <include layout="@layout/a_navigation_frame_card5"/>
         </LinearLayout>
     </LinearLayout>
 

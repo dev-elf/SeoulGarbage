@@ -10,7 +10,7 @@ public class BActivityCard3Activity extends SActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.b_activity_card3);
-        initLayout("무슨화면인지 모르겠다");
+        initLayout("쓰레기버리는 정보 꿀팁");
     }
 
     @Override

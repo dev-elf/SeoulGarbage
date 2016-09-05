@@ -3,11 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">@color/appMain</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="navigationBarColor">@color/appMain</color>
 
     <!-- base color -->
     <color name="white">#fff</color>
     <color name="transparent">@android:color/transparent</color>
-
+    <color name="defaultColor">#ffCCE5FF</color>
 
     <!-- App's color -->
     <color name="appMain">#ff589980</color>

@@ -38,8 +38,8 @@
         android:textSize="60px"
         android:layout_marginTop="30px"/>
 
-    <LinearLayout
-        android:id="@+id/date_layer"
+    <com.dev_elf.seoul.seoulgarbage.adapters.WeatherAdapter
+        android:id="@+id/dateLayer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30px"

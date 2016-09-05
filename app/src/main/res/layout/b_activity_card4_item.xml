@@ -4,18 +4,18 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/date_ddd"
+        android:id="@+id/dateDdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="월"/>
 
     <ImageView
-        android:id="@+id/date_wheather"
+        android:id="@+id/dateWeather"
         android:layout_width="match_parent"
         android:layout_height="150dp" />
 
     <TextView
-        android:id="@+id/date_day"
+        android:id="@+id/dateDay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="20도"/>
