@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="300dp"
     android:layout_weight="2"
+    android:onClick="clickCard5"
     android:layout_margin="@dimen/navigationdrawer_frame_card_margin"
     android:background="@color/defaultColor"
     android:orientation="vertical"

@@ -6,68 +6,41 @@
     android:orientation="vertical"
     tools:context="com.dev_elf.seoul.seoulgarbage.SettingActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="200px"
-        android:orientation="horizontal"
-        android:gravity="center_vertical">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="푸시알림"
-            android:textSize="70px"
-            android:layout_marginLeft="30px"/>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
-
-        <ToggleButton
-            android:layout_width="300px"
-            android:layout_height="150px"
-            android:layout_marginRight="30px"/>
-
-    </LinearLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2px"
-        android:background="#bbbbbb"/>
+    <include layout="@layout/d_tool_actionbar" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200px"
+        android:layout_height="@dimen/setting_layout_height"
         android:gravity="center_vertical"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="@dimen/setting_layout_padding">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="알림"
-            android:textSize="70px"
-            android:layout_marginLeft="30px"/>
+            android:textSize="@dimen/setting_font" />
 
         <View
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
 
-        <ToggleButton
-            android:layout_width="300px"
-            android:layout_height="150px"
-            android:layout_marginRight="30px"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="2px"
-        android:background="#bbbbbb"/>
+        android:layout_height="1dp"
+        android:background="#bbbbbb" />
+
     <LinearLayout
+        android:padding="@dimen/setting_layout_padding"
         android:layout_width="match_parent"
-        android:layout_height="200px"
+        android:layout_height="@dimen/setting_layout_height"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
@@ -75,43 +48,43 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="기준 장소"
-            android:textSize="70px"
-            android:layout_marginLeft="30px"/>
+            android:textSize="@dimen/setting_font" />
+
         <View
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="서울시 중구 필동"
-            android:textSize="60px"
-            android:layout_marginRight="30px"/>
+            android:textSize="@dimen/setting_font" />
 
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="2px"
-        android:background="#bbbbbb"/>
+        android:layout_height="1dp"
+        android:background="#bbbbbb" />
 
     <LinearLayout
+        android:padding="@dimen/setting_layout_padding"
         android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_layout_height"
         android:gravity="center_vertical"
-        android:layout_height="200px"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="앱정보"
-            android:textSize="70px"
-            android:layout_marginLeft="30px"/>
+            android:textSize="@dimen/setting_font" />
 
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="2px"
-        android:background="#bbbbbb"/>
+        android:background="#bbbbbb" />
 </LinearLayout>

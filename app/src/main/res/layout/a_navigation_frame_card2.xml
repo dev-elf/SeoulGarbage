@@ -5,6 +5,7 @@
     android:layout_weight="2"
     android:orientation="vertical"
     android:layout_margin="@dimen/navigationdrawer_frame_card_margin"
+    android:onClick="clickCard2"
     android:background="@color/defaultColor"
     android:padding="@dimen/navigationdrawer_frame_card_padding">
 

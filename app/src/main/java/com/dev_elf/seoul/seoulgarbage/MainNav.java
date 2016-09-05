@@ -68,12 +68,14 @@ public class MainNav extends SActivity implements NavigationDrawer{
             public void onDrawerOpened(View view) {
                 super.onDrawerOpened(view);
                 isDrawerOpen = true;
+                setToolbarText("쓰레기버리기 메뉴를 골라주세요");
             }
 
             @Override
             public void onDrawerClosed(View view) {
                 super.onDrawerClosed(view);
                 isDrawerOpen = false;
+                setToolbarText("서울쓰레기");
             }
         };
         mDrawerLayout.addDrawerListener(mDrawerToggle);
@@ -138,6 +140,29 @@ public class MainNav extends SActivity implements NavigationDrawer{
                     break;
             }
             startActivity(intent);
+
         }
     };
+
+    public void clickCard1(View v){
+        Intent intent = new Intent(MainNav.this, BActivityCard1Activity.class);
+        startActivity(intent);
+    }
+    public void clickCard2(View v){
+        Intent intent = new Intent(MainNav.this, BActivityCard2Activity.class);
+        startActivity(intent);
+    }
+    public void clickCard3(View v){
+        Intent intent = new Intent(MainNav.this, BActivityCard3Activity.class);
+        startActivity(intent);
+    }
+    public void clickCard4(View v){
+        Intent intent = new Intent(MainNav.this, BActivityCard4Activity.class);
+        startActivity(intent);
+    }
+    public void clickCard5(View v){
+        Intent intent = new Intent(MainNav.this, BActivityCard5Activity.class);
+        startActivity(intent);
+    }
+
 }

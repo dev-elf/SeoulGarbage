@@ -16,6 +16,7 @@ import java.util.ArrayList;
 
 /**
  * Created by dnay2 on 2016-09-04.
+ *  리스트를 넣으면 자동으로 날씨를 넣어주는 메소드
  */
 public class WeatherAdapter extends LinearLayout {
 

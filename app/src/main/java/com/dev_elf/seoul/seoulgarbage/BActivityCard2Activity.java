@@ -7,6 +7,9 @@ import com.dev_elf.seoul.seoulgarbage.acitivities.SActivity;
 
 import net.daum.mf.map.api.MapView;
 
+/**
+ * 쓰레기 버리는 화면입니다.
+ */
 
 public class BActivityCard2Activity extends SActivity {
 
@@ -14,8 +17,8 @@ public class BActivityCard2Activity extends SActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.b_activity_card2);
+        super.onCreate(savedInstanceState, R.layout.b_activity_card2);
+//        setContentView(R.layout.b_activity_card2);
         initLayout("쓰레기 버리는 곳");
         MapView mapView = new MapView(this);
         mapView.setDaumMapApiKey(API_KEY);

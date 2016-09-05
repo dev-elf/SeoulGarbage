@@ -8,8 +8,8 @@ public class BActivityCard5Activity extends SActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.b_activity_card5);
+        super.onCreate(savedInstanceState, R.layout.b_activity_card5);
+//        setContentView(R.layout.b_activity_card5);
         initLayout("다섯번째화면");
     }
 

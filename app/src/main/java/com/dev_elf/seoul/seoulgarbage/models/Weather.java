@@ -23,17 +23,17 @@ public class Weather {
 
     public int getWeatherImg() {
         switch (weatherImg){
-            case 10:return R.drawable.b_weather_sunny; /*맑음*/
-            case 11:return R.drawable.b_weather_cloudy_little; /*구름조금*/
-            case 12:return R.drawable.b_weather_cloudy; /*구름많음*/
-            case 13:return R.drawable.b_weather_cloudy_much; /*흐림*/
-            case 14:return R.drawable.b_weather_rainy_little; /*조금비*/
-            case 15:return R.drawable.b_weather_rainy_much; /*많이비*/
-            case 16:return R.drawable.b_weather_sunny_hot; /*폭염주의보*/
-            case 17:return R.drawable.b_weather_snow; /*눈*/
-            case 18:return R.drawable.b_weather_snow_thunder; /*번개눈*/
-            case 19:return R.drawable.b_weather_rainy_thunder; /*번개비*/
-            case 20:return 0; /**/
+            case 0:return R.drawable.b_weather_sunny; /*맑음*/
+            case 1:return R.drawable.b_weather_cloudy_little; /*구름조금*/
+            case 2:return R.drawable.b_weather_cloudy; /*구름많음*/
+            case 3:return R.drawable.b_weather_cloudy_much; /*흐림*/
+            case 4:return R.drawable.b_weather_rainy_little; /*조금비*/
+            case 5:return R.drawable.b_weather_rainy_much; /*많이비*/
+            case 6:return R.drawable.b_weather_sunny_hot; /*폭염주의보*/
+            case 7:return R.drawable.b_weather_snow; /*눈*/
+            case 8:return R.drawable.b_weather_snow_thunder; /*번개눈*/
+            case 9:return R.drawable.b_weather_rainy_thunder; /*번개비*/
+            case 10:return 0; /**/
             case 21:return 0; /**/
             case 22:return 0; /**/
         }

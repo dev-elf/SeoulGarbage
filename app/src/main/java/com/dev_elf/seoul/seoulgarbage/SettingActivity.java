@@ -1,13 +1,21 @@
 package com.dev_elf.seoul.seoulgarbage;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class SettingActivity extends AppCompatActivity {
+import com.dev_elf.seoul.seoulgarbage.acitivities.SActivity;
+
+public class SettingActivity extends SActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
+        initLayout("설정");
+    }
+
+    @Override
+    protected void initLayout(String text) {
+        super.initLayout(text);
+
     }
 }
