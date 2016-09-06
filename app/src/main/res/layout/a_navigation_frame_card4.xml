@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_weight="1"
+    android:layout_margin="@dimen/navigationdrawer_frame_card_margin"
+    android:padding="@dimen/navigationdrawer_frame_card_padding"
+    android:onClick="clickCard4"
+    android:background="@color/defaultColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="날씨"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:src="@drawable/b_weather_sunny"
+        android:contentDescription="weather"
+        android:scaleType="centerInside"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:text="온도"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

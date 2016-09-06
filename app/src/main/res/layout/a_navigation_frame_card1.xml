@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="@dimen/navigationdrawer_frame_card_margin"
+    android:layout_weight="1"
+    android:background="@color/defaultColor"
+    android:gravity="center"
+    android:onClick="clickCard1"
+    android:orientation="vertical"
+    android:padding="@dimen/navigationdrawer_frame_card_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="일반쓰레기" />
+
+    <TextView
+        android:id="@+id/garbageDday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="D-2" />
+</LinearLayout>

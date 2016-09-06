@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerMenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appWhiteBack"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="@color/appMain"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <TextView
+            android:textColor="@color/appWhiteBack"
+            android:id="@+id/userAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:text="사랑의 쓰레기통" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/menuList"
+        android:divider="@color/transparent"
+        android:dividerHeight="3dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+</LinearLayout>
