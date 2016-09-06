@@ -15,6 +15,9 @@ import android.widget.Toast;
 import com.dev_elf.seoul.seoulgarbage.acitivities.SActivity;
 import com.dev_elf.seoul.seoulgarbage.adapters.NavigationDrawerAdapter;
 import com.dev_elf.seoul.seoulgarbage.interfaces.NavigationDrawer;
+import com.dev_elf.seoul.seoulgarbage.models.MenuItem;
+
+import java.util.ArrayList;
 
 /**
  * Created by dnay2 on 2016-09-04.
@@ -31,6 +34,8 @@ public class MainNav extends SActivity implements NavigationDrawer{
     View mDrawerLeft;
     ListView mMenuList;
     TextView userAddress;
+
+    ArrayList<MenuItem> menuItems = new ArrayList<>();
 
     private boolean isDrawerOpen = false;
 
@@ -51,6 +56,7 @@ public class MainNav extends SActivity implements NavigationDrawer{
         super.onCreate(savedInstanceState, R.layout.a_navigation);
         initDrawer();
         initCard();
+        for(int i=0; i<6;i++) menuItems.add(new MenuItem(menuName[i], menuImg[i]));
     }
 
     private void initDrawer(){
@@ -137,6 +143,8 @@ public class MainNav extends SActivity implements NavigationDrawer{
                 case 3: intent = new Intent(MainNav.this, BActivityCard4Activity.class);
                     break;
                 case 4: intent = new Intent(MainNav.this, BActivityCard5Activity.class);
+                    break;
+                case 5: intent = new Intent(MainNav.this, SettingActivity.class);
                     break;
             }
             startActivity(intent);

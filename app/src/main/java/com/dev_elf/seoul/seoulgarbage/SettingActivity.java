@@ -16,6 +16,9 @@ public class SettingActivity extends SActivity {
     @Override
     protected void initLayout(String text) {
         super.initLayout(text);
+        /**
+         * UI는 여기에
+         */
 
     }
 }

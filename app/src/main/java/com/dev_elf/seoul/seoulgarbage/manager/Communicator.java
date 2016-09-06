@@ -35,6 +35,7 @@ import javax.net.ssl.X509TrustManager;
 /*
 * Http통신 API
  */
+
 public class Communicator {
 	private static String webUrl = "";
 

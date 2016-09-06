@@ -30,6 +30,23 @@ public abstract class SActivity extends AppCompatActivity {
     protected static final int move_l_c = R.anim.move_l_c;
     protected static final int move_c_r = R.anim.move_c_r;
 
+    protected static final int[] menuImg ={
+            R.drawable.a_item_3garbage,
+            R.drawable.a_item_4_address,
+            R.drawable.a_item_2garbagetip,
+            R.drawable.a_item_1weather,
+            R.drawable.a_item_5setting,
+            R.drawable.a_item_5setting
+    };
+    protected static final String[] menuName={
+            "D-day설정",
+            "쓰레기 배출 정보",
+            "쓰레기 버리는 팁",
+            "날씨보기",
+            "다섯번째",
+            "설정"
+    };
+
 
     private final int fade_in = R.anim.fade_in;
     private final int fade_out = R.anim.fade_out;
