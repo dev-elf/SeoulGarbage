@@ -90,8 +90,7 @@ public class MainNav extends SActivity implements NavigationDrawer{
     private void initDrawerMenu(){
         mMenuList = (ListView) findViewById(R.id.menuList);
         userAddress = (TextView) findViewById(R.id.userAddress);
-
-        mMenuList.setAdapter(new NavigationDrawerAdapter(MainNav.this));
+        mMenuList.setAdapter(new NavigationDrawerAdapter(MainNav.this, menuItems));
         mMenuList.setOnItemClickListener(menuHandler);
         userAddress.setText("당신의 위치 내 마음속");
     }

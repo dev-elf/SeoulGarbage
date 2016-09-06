@@ -6,6 +6,7 @@
 
     <LinearLayout
         android:id="@+id/frame"
+        android:padding="@dimen/navigationdrawer_frame_padding"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">

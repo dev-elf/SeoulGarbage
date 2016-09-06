@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.dev_elf.seoul.seoulgarbage.R;
+import com.dev_elf.seoul.seoulgarbage.models.MenuItem;
 
 import java.util.ArrayList;
 
@@ -19,9 +20,8 @@ public class NavigationDrawerAdapter extends BaseAdapter {
     ArrayList<MenuItem> items;
     Context context;
 
-    public NavigationDrawerAdapter(Context context) {
-        items = new ArrayList<>();
-        for(int i=0;i<5;i++) items.add(new MenuItem("item"+i, i));
+    public NavigationDrawerAdapter(Context context, ArrayList<MenuItem> items) {
+        this.items = items;
         this.context = context;
     }
 
@@ -65,22 +65,5 @@ public class NavigationDrawerAdapter extends BaseAdapter {
         return v;
     }
 
-    private class MenuItem{
-        private String menuName;
-        private int menuImg;
-
-        public MenuItem(String menuName, int menuImg) {
-            this.menuName = menuName;
-            this.menuImg = R.mipmap.ic_launcher;
-        }
-
-        public String getMenuName() {
-            return menuName;
-        }
-
-        public int getMenuImg() {
-            return menuImg;
-        }
-    }
 
 }
