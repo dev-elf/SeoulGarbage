@@ -22,8 +22,8 @@ import java.util.ArrayList;
 /**
  * Created by dnay2 on 2016-09-04.
  */
-public class MainNav extends SActivity implements NavigationDrawer{
 
+public class MainNav extends SActivity implements NavigationDrawer{
 
     private static final int[] cardLayout = {
         0
@@ -38,7 +38,6 @@ public class MainNav extends SActivity implements NavigationDrawer{
     ArrayList<MenuItem> menuItems = new ArrayList<>();
 
     private boolean isDrawerOpen = false;
-
 
     long pressedTime = 0;
     @Override

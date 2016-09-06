@@ -12,5 +12,10 @@
     <!-- App's color -->
     <color name="appMain">#589980</color>
     <color name="appWhiteBack">#fff4f3f2</color>
+    <color name="card1">#ff237556</color>
+    <color name="card2">#ff379470</color>
+    <color name="card3">#ff5ccca0</color>
+    <color name="card4">#ff62af94</color>
+    <color name="card5">#ff277b5b</color>
 
 </resources>

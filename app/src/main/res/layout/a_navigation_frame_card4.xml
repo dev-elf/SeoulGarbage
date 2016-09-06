@@ -6,7 +6,7 @@
     android:layout_margin="@dimen/navigationdrawer_frame_card_margin"
     android:padding="@dimen/navigationdrawer_frame_card_padding"
     android:onClick="clickCard4"
-    android:background="@color/defaultColor"
+    android:background="@color/card4"
     android:orientation="vertical">
 
     <TextView

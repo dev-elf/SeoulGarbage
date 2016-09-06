@@ -4,20 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ScrollView
+    <LinearLayout
+        android:id="@+id/frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="none">
+        android:orientation="horizontal">
 
+        <include layout="@layout/activity_main" />
+    </LinearLayout>
 
-
-        <LinearLayout
-            android:id="@+id/frame"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <include layout="@layout/activity_main" />
-        </LinearLayout>
-    </ScrollView>
 </LinearLayout>
