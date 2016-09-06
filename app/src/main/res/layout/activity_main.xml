@@ -11,16 +11,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="30px"
-        android:layout_marginLeft="30px"
-        android:layout_marginRight="30px"
-        android:layout_marginTop="30px"
+        android:padding="@dimen/navigationdrawer_frame_card_padding"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginRight="15px"
             android:layout_weight="1"
             android:orientation="vertical">
             <include layout="@layout/a_navigation_frame_card1" />
@@ -31,7 +27,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="15px"
             android:layout_weight="1"
             android:orientation="vertical">
 
