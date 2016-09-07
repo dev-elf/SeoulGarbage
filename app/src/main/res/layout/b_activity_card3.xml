@@ -9,18 +9,24 @@
     <include layout="@layout/d_tool_actionbar"/>
 
     <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         android:layout_width="match_parent"
-        android:layout_height="150px"
-        android:layout_marginLeft="50px"
-        android:layout_marginRight="50px"
-        android:layout_marginTop="50px"
+        android:layout_height="75dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
         android:gravity="center_vertical">
 
         <EditText
+            android:id="@+id/searchText"
+            android:singleLine="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30px"
-            android:layout_marginRight="30px"/>
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+        </EditText>
 
     </LinearLayout>
 
